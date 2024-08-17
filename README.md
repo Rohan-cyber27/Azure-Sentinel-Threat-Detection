@@ -12,7 +12,7 @@ In this project, I focused on creating a cybersecurity monitoring environment in
 - Azure Moniter
 - Virtual Network
 - NSG
-- Azure subcribition
+- Azure Subscriptions
   
 ## Step 1: Setting Up the Virtual Machines (VMs)
 
@@ -122,6 +122,8 @@ After collecting data for one day, I reconfigured the NSG rules to harden the se
 | SecurityEvent            | 0%
 | Syslog                   | 0%
 
+**AFTER UPDATING NSG**
+![Screenshot 2024-08-17 211337](https://github.com/user-attachments/assets/8212bbee-e163-45b8-b4c9-70f32ec075f1)
 
 ### Monitoring the Impact:
 
