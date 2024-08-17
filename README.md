@@ -66,6 +66,16 @@ I created a Log Analytics Workspace named `loganalyser` within the `cybersecurit
 
 By connecting both VMs to the Log Analytics Workspace, I ensured that all activities on these machines were logged and could be analyzed using Azure's powerful querying capabilities.
 
+### Extracting IP Addresses and Location Information
+**I utilized a Python script to extract IP addresses from the event logs and retrieve location information for these IPs.**
+
+Python Script:
+The script performed the following tasks:
+
+**Extract IP Addresses: Extracted IP addresses from the event logs using regular expressions.
+Fetch Location Information: Used the ip-api.com service to obtain geographic information (country, latitude, longitude) for each IP address.
+Export Results: Saved the extracted IP addresses and their location details to a CSV file.**
+
 ## Step 4: Setting Up Azure Sentinel
 
 Azure Sentinel was set up within the same Resource Group (`cybersecurity`) to monitor the logs collected in the `loganalyser` workspace.
